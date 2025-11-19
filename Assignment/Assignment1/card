@@ -1,1 +1,118 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>7 World Wonders</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 300px;
+            margin: 20px;
+            padding: 50px;
+            border-radius: 10px;
+            align-items: center;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 150px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>7 Wonders of the World</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://images8.alphacoders.com/357/357222.jpg">
+            </div>
+            <div class="card-title">Great Wall of China</div>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://s1.it.atcdn.net/wp-content/uploads/2014/09/Chichen-Itza-1-of-32.jpg">
+            </div>
+            <div class="card-title">Chichen Itza – Mexico</div>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg">
+            </div>
+            <div class="card-title">Machu Picchu – Peru</div>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://th.bing.com/th/id/OIP.W_6U-wREt5f-Z-uY-HhbDgHaDd?w=310&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+            </div>
+            <div class="card-title">Petra – Jordan</div>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://th.bing.com/th/id/OIP.hTD7YMEJobSp7bgVFpLL7gHaEW?w=326&h=190&c=7&r=0&o=7&pid=1.7&rm=3">
+            </div>
+            <div class="card-title">Colosseum – Italy</div>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg">
+            </div>
+            <div class="card-title">Taj Mahal – India</div>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://th.bing.com/th/id/OIP.16gm6L_dGISzznpsmcg9MQHaE_?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+            </div>
+            <div class="card-title">Christ the Redeemer – Brazil</div>
+            <button>Learn More</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
